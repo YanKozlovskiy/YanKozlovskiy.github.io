@@ -1,0 +1,21 @@
+# Site settings
+title: Why Code
+header-img: img/home-bg.png
+email: yankozlovskiy@icloud.com
+copyright_name: YanKozlovskiy
+description: > # this means to ignore newlines until "baseurl:"
+  Yan's Journey of a Thousand Miles
+baseurl: "" # the subpath of your site, e.g. /blog
+twitter_username: YKozlovskiy
+github_username:  YanKozlovskiy
+learn_profile: YanKozlovskiy
+email_username: yankozlovskiy@icloud.com
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+permalink: pretty
+paginate: 5
+exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]
+
+gems: [jekyll-paginate, jekyll-feed]
